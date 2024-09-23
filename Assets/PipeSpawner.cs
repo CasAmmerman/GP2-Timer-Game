@@ -12,6 +12,7 @@ public class PipeSpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+    //Spawns pipes just off screen 
         InvokeRepeating("spawnPipes", 1f, 1f);
     }
 
@@ -25,6 +26,7 @@ public class PipeSpawner : MonoBehaviour
 
     }
 
+    //Allows pipe location to vary vertically
     void spawnPipes()
     {
         float lowestPoint = transform.position.y - heightOffset;
