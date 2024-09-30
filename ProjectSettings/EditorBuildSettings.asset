@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PlayStreen.unity
     guid: ae37b8f53d398994aa542b868478887b
+  - enabled: 1
+    path: Assets/Scenes/End Game.unity
+    guid: 38d57bd51a6fe7741ae496783bcd0e83
   m_configObjects: {}
