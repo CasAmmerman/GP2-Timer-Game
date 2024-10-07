@@ -13,4 +13,9 @@ public class Playscript : MonoBehaviour
    {
 		  Application.Quit();
    }
+
+   public void RestartGame()
+   {
+		  SceneManager.LoadSceneAsync(0);
+   }
 }
